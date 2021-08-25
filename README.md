@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
 
+[Click me!](./test.html)
+
 You can use the [editor on GitHub](https://github.com/N4Z01xmn01NmZ/test-fyp/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
