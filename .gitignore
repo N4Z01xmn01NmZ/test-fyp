@@ -1,0 +1,5 @@
+node_modules/*
+!node_modules/reveal.js
+!node_modules/reveal.js-copycode
+!node_modules/reveal.js-menu
+!node_modules/reveal.js-plugins

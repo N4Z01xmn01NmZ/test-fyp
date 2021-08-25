@@ -1,0 +1,33 @@
+{
+  "name": "test-fyp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N4Z01xmn01NmZ/test-fyp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N4Z01xmn01NmZ/test-fyp/issues"
+  },
+  "homepage": "https://github.com/N4Z01xmn01NmZ/test-fyp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nanoid": "^3.1.25",
+    "reveal.js": "^4.1.3",
+    "reveal.js-copycode": "^1.0.2",
+    "reveal.js-menu": "^2.1.0",
+    "reveal.js-plugins": "^4.1.3",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

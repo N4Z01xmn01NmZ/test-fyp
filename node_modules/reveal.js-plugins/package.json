@@ -1,0 +1,50 @@
+{
+  "_from": "reveal.js-plugins",
+  "_id": "reveal.js-plugins@4.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-Cw+WNFxwIjXmD8/9OqOJrTyhyNDMYyOc3apC4Yftc2HuXH0st0YwdRkLsIvOEpI0pvVDyIzSFzLrd4qdG9hD/A==",
+  "_location": "/reveal.js-plugins",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "reveal.js-plugins",
+    "name": "reveal.js-plugins",
+    "escapedName": "reveal.js-plugins",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/reveal.js-plugins/-/reveal.js-plugins-4.1.3.tgz",
+  "_shasum": "444eab02fbb03980930ded5b276bfa2d796b6974",
+  "_spec": "reveal.js-plugins",
+  "_where": "C:\\Zero\\Files\\Binus\\fyp\\2021\\test-fyp",
+  "author": {
+    "name": "Asvin Goel"
+  },
+  "bugs": {
+    "url": "https://github.com/rajgoel/reveal.js-plugins/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "npm": "^6.13.4"
+  },
+  "deprecated": false,
+  "description": "A plugin collection for your reveal.js presentations",
+  "homepage": "https://github.com/rajgoel/reveal.js-plugins/blob/master/README.md",
+  "keywords": [
+    "reveal",
+    "plugins"
+  ],
+  "license": "MIT",
+  "name": "reveal.js-plugins",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajgoel/reveal.js-plugins.git"
+  },
+  "version": "4.1.3"
+}

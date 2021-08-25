@@ -1,0 +1,10 @@
+# Server package
+npm install express socket.io nodemon
+
+# Client package
+npm install reveal.js reveal.js-plugins reveal.js-menu reveal.js-copycode nanoid
+
+# All script
+npm install express socket.io reveal.js reveal.js-plugins reveal.js-menu reveal.js-copycode nanoid
+
+npm install nodemon --save-dev

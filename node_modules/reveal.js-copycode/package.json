@@ -1,0 +1,53 @@
+{
+  "_from": "reveal.js-copycode",
+  "_id": "reveal.js-copycode@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-YKXE2Y67/PYhutZVtUIcnpUKnuicwdFRiajnUZStU8nR/FHBs4+LrgxuNhKo4SC5mFBzqMlXH9fIBlgLJWlfuA==",
+  "_location": "/reveal.js-copycode",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "reveal.js-copycode",
+    "name": "reveal.js-copycode",
+    "escapedName": "reveal.js-copycode",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/reveal.js-copycode/-/reveal.js-copycode-1.0.2.tgz",
+  "_shasum": "1e281e2e81f88a3533d35aa3cdb960a1bccd400a",
+  "_spec": "reveal.js-copycode",
+  "_where": "C:\\Zero\\Files\\Binus\\fyp\\2021\\test-fyp",
+  "author": {
+    "name": "Martijn De Jongh"
+  },
+  "bugs": {
+    "url": "https://github.com/Martinomagnifico/reveal.js-copycode/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A simple plugin for Reveal.js 4, that automatically shows a copy button in code blocks",
+  "homepage": "https://github.com/Martinomagnifico/reveal.js-copycode",
+  "keywords": [
+    "reveal",
+    "reveal.js",
+    "reveal-plugin",
+    "plugin",
+    "code editor"
+  ],
+  "license": "MIT, Copyright (C) 2021 Martijn De Jongh",
+  "name": "reveal.js-copycode",
+  "peerDependencies": {
+    "reveal.js": "^4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinomagnifico/reveal.js-copycode.git"
+  },
+  "version": "1.0.2"
+}
