@@ -1,5 +1,5 @@
 # Server package
-npm install express socket.io nodemon
+npm install express socket.io bcrypt nodemon
 
 # Client package
 npm install reveal.js reveal.js-plugins reveal.js-menu reveal.js-copycode nanoid

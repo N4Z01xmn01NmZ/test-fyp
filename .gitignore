@@ -1,5 +1,11 @@
-node_modules/*
-!node_modules/reveal.js
-!node_modules/reveal.js-copycode
-!node_modules/reveal.js-menu
-!node_modules/reveal.js-plugins
+# IDE artefact
+.vscode
+
+# Node related except reveal.js
+node_modules
+
+# Live workspaces
+workspace
+
+# Others
+package_list.txt
