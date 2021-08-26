@@ -1,8 +1,8 @@
 # Bare Machine Programming
 
-[Slide](./slide.html)
-
 ## Prerequisite
+
+[Slide](./slide.html)
 
 - Download and install [Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview)
 
