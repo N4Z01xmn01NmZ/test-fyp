@@ -15,4 +15,6 @@ How to [setup the compiler](./compiler-setup.md).
 - [C/C++](./cpp)
 - PlatformIO
 
+See the presentation [slide](slide.html).
+
 ## Visual Studio Code
