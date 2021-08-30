@@ -28,14 +28,20 @@ void printBytesf(T& var) {
 }
 
 int main() {
+    void* ptr;
+
     bool boo = true; // Stores true or false
     PRINT_DATA_I(boo);
+
     char cha = 'A'; // Stores a single byte
     PRINT_DATA_I(cha);
+
     int num = 45; // Stores 4 bytes interger value
     PRINT_DATA_I(num);
+
     float flo = 3.14f; // Stores a floating point value
     PRINT_DATA_F(flo);
+
     double dou = 3.14f; // Stores a floating point value
     PRINT_DATA_F(flo);
 }

@@ -159,8 +159,10 @@
                     <section data-auto-animate>
                         <h2 data-id="code-title">Declaring variable</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape>
-                                int variable;
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="2">
+                                {
+                                    int variable;
+                                }
                             </code>
                         </pre>
                     </section>
@@ -168,9 +170,11 @@
                     <section data-auto-animate>
                         <h2 data-id="code-title">Assigning value</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape>
-                                int variable;
-                                variable = 10;
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="3">
+                                {
+                                    int variable;
+                                    variable = 10;
+                                }
                             </code>
                         </pre>
                     </section>
@@ -178,8 +182,10 @@
                     <section data-auto-animate>
                         <h2 data-id="code-title">Variable initialization</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape>
-                                int variable = 10;
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers>
+                                {
+                                    int variable = 10;
+                                }
                             </code>
                         </pre>
                     </section>
@@ -187,9 +193,7 @@
                     <section data-auto-animate>
                         <h2 data-id="code-title">Changing value</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers>
-                                #include &ltiostream&gt
-    
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="3">
                                 int main() {
                                     int variable = 10;
                                     variable = 5;
@@ -201,7 +205,7 @@
                     <section data-auto-animate>
                         <h2 data-id="code-title">Changing value</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers>
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="1,5,8-9|">
                                 #include &ltiostream&gt
     
                                 int main() {
@@ -223,10 +227,10 @@
                     </section>
     
                     <section data-auto-animate>
-                        <h2>Data types</h2>
+                        <h2 data-id="code-title">Data types</h2>
                         <pre data-id="code-animation">
                             <code class="language-cpp" data-trim data-noescape data-line-numbers="2">
-                                int main() {
+                                {
                                     bool boo = true; // Stores true or false
                                 }
                             </code>
@@ -234,10 +238,10 @@
                     </section>
 
                     <section data-auto-animate>
-                        <h2>Data types</h2>
+                        <h2 data-id="code-title">Data types</h2>
                         <pre data-id="code-animation">
                             <code class="language-cpp" data-trim data-noescape data-line-numbers="3">
-                                int main() {
+                                {
                                     bool boo = true; // Stores true or false
                                     char cha = 'A'; // Stores a single byte
                                 }
@@ -246,10 +250,10 @@
                     </section>
 
                     <section data-auto-animate>
-                        <h2>Data types</h2>
+                        <h2 data-id="code-title">Data types</h2>
                         <pre data-id="code-animation">
                             <code class="language-cpp" data-trim data-noescape data-line-numbers="4">
-                                int main() {
+                                {
                                     bool boo = true; // Stores true or false
                                     char cha = 'A'; // Stores a single byte
                                     int num = 45; // Stores 4 bytes interger value
@@ -259,10 +263,10 @@
                     </section>
 
                     <section data-auto-animate>
-                        <h2>Data types</h2>
+                        <h2 data-id="code-title">Data types</h2>
                         <pre data-id="code-animation">
                             <code class="language-cpp" data-trim data-noescape data-line-numbers="5">
-                                int main() {
+                                {
                                     bool boo = true; // Stores true or false
                                     char cha = 'A'; // Stores a single byte
                                     int num = 45; // Stores 4 bytes interger value
@@ -273,17 +277,23 @@
                     </section>
 
                     <section data-auto-animate>
-                        <h2>Data types</h2>
+                        <h2 data-id="code-title">Data types</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers="1,5">
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="1|4-5|7-8|10-11|13-14|">
                                 #include &ltstdio.h&gt
     
                                 int main() {
                                     bool boo = true; // Stores true or false
-                                    printf();
+                                    printf("boo value is %d with size of %d byte", boo, sizeof(bool));
+
                                     char cha = 'A'; // Stores a single byte
+                                    printf("cha value is %d with size of %d byte", boo, sizeof(char));
+
                                     int num = 45; // Stores 4 bytes interger value
+                                    printf("num value is %d with size of %d bytes", boo, sizeof(int));
+
                                     float flo = 3.14f; // Stores a floating point value
+                                    printf("flo value is %2.3f %+.0e with size of %d bytes", boo, sizeof(float));
                                 }
                             </code>
                         </pre>
@@ -295,16 +305,14 @@
                         <h2>Branch</h2>
                     </section>
 
-                    <section>
-                        <h2>If statement</h2>
-                    </section>
-
                     <section data-auto-animate>
-                        <h2>If statement</h2>
+                        <h2 data-id="code-title">If statement</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers="|1|2">
-                                if (/* condition */) {
-                                    /* code */
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="|2|3">
+                                {
+                                    if (/* condition */) {
+                                        /* code */
+                                    }
                                 }
                             </code>
                         </pre>
@@ -313,11 +321,13 @@
                     <section data-auto-animate>
                         <h2>If statement</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers="3|4">
-                                if (/* condition */) {
-                                    /* code */
-                                } else {
-                                    /* code */
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="4|5">
+                                {
+                                    if (/* condition */) {
+                                        /* code */
+                                    } else {
+                                        /* code */
+                                    }
                                 }
                             </code>
                         </pre>
@@ -326,11 +336,13 @@
                     <section data-auto-animate>
                         <h2>If statement</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers="1-2,4">
-                                if (var % 2 == 0) {
-                                    std::cout << "This is an even number.\n";
-                                } else {
-                                    std::cout << "This is an odd number.\n";
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="2-3,5">
+                                {
+                                    if (var % 2 == 0) {
+                                        std::cout << "This is an even number.\n";
+                                    } else {
+                                        std::cout << "This is an odd number.\n";
+                                    }
                                 }
                             </code>
                         </pre>
@@ -370,9 +382,11 @@
                     <section data-auto-animate>
                         <h2>While loop</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers="|1|2">
-                                while (/* condition */) {
-                                    /* code */
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="|2|3">
+                                {
+                                    while (/* condition */) {
+                                        /* code */
+                                    }
                                 }
                             </code>
                         </pre>
@@ -381,10 +395,12 @@
                     <section data-auto-animate>
                         <h2>While loop</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers="1-2|3|">
-                                bool isRunning = true;
-                                while (isRunning) {
-                                    /* the program loop */
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="2-3|4|">
+                                {
+                                    bool isRunning = true;
+                                    while (isRunning) {
+                                        /* the program loop */
+                                    }
                                 }
                             </code>
                         </pre>
@@ -397,9 +413,11 @@
                     <section data-auto-animate>
                         <h2>For loop</h2>
                         <pre data-id="code-animation">
-                            <code class="language-cpp" data-trim data-noescape data-line-numbers="|1|2">
-                                for (size_t i = 0; i < count; i++) {
-                                    /* code */
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="|2|3|">
+                                {
+                                    for (size_t i = 0; i < count; i++) {
+                                        /* code */
+                                    }
                                 }
                             </code>
                         </pre>
@@ -407,7 +425,49 @@
                 </section>
 
                 <section>
-                    <h2>String</h2>
+                    <section>
+                        <h2>String</h2>
+                    </section>
+
+                    <section data-auto-animate>
+                        <h2 data-id="code-title">C string</h2>
+                        <pre data-id="code-animation">
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="2">
+                                {
+                                    const char* name = "Odonata";
+                                }
+                            </code>
+                        </pre>
+                    </section>
+
+                    <section data-auto-animate>
+                        <h2 data-id="code-title">C string</h2>
+                        <pre data-id="code-animation">
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="5|">
+                                #include &ltiostream&gt
+                                
+                                int main() {
+                                    const char* name = "Odonata";
+                                    std::cout << name << std::endl;
+                                }
+                            </code>
+                        </pre>
+                    </section>
+
+                    <section data-auto-animate>
+                        <h2 data-id="code-title">C string</h2>
+                        <pre data-id="code-animation">
+                            <code class="language-cpp" data-trim data-noescape data-line-numbers="2,5|">
+                                #include &ltiostream&gt
+                                #include &ltstring&gt
+                                
+                                int main() {
+                                    std::string name = "Odonata";
+                                    std::cout << name << std::endl;
+                                }
+                            </code>
+                        </pre>
+                    </section>
                 </section>
 
                 <section>
@@ -557,6 +617,16 @@
                     autoJoin: true // set to true to auto,matically join the seminar room
                 },
 
+                copycode: {
+                    copy: "Copy",
+                    copied: "Copied!",
+                    timeout: 1000,
+                    copybg: "orange",
+                    copiedbg: "green",
+                    copycolor: "black",
+                    copiedcolor: "white"
+                },
+
                 plugins: [
                     // Built-in plugins and external-code
                     Externalcode,
@@ -575,7 +645,7 @@
                     RevealQnA,
                     RevealSeminar,
                     // Other third party plugins
-                    CopyCode 
+                    // CopyCode 
                 ]
             });
 

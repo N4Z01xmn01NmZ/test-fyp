@@ -4,6 +4,5 @@
 
 - [Hello Sekai](./01-hello)
 - [Variable and Type](./02-variable-and-type)
-- [Branch]()
-- [Loop]()
+- [Control Flow](./03-control-flow)
 - [String]()

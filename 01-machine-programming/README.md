@@ -7,6 +7,8 @@
     - Linux/macOS: GCC
     - Windows: Mingw
 
+How to [setup the compiler](./compiler-setup.md).
+
 ## Content
 
 - Visual Studio Code
